@@ -194,7 +194,7 @@ class TwitchOutputStream(object):
                 ]
 
         fh = open("/dev/null", "w")
-        fh = None #uncomment for viewing ffmpeg output
+        #fh = None #uncomment for viewing ffmpeg output
         self.pipe = sp.Popen( command, stdin=sp.PIPE, stderr=fh, stdout=fh)
 
     def __enter__(self):
