@@ -15,10 +15,12 @@ At least a graphics card with 4GB of memory (e.g. the GTX 680, 980 and the Tesla
 At least 12 GB of RAM (not tested), 32GB is recommended and tested.
 
 You will need the following libraries installed:
+
 1. Cudnn
 2. Pylearn2
 3. Theano
 4. Lasagne
+
 Warning: setting these up is unfortunately not `sudo apt-get' trivial.
 
 You will also need to download the vgg networks from their website [here http://www.vlfeat.org/matconvnet/pretrained/](http://www.vlfeat.org/matconvnet/pretrained/)
