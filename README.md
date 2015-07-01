@@ -24,7 +24,11 @@ You will need the following libraries installed:
 Warning: setting these up is unfortunately not `sudo apt-get' trivial.
 
 You will also need to download the vgg networks from their website [here http://www.vlfeat.org/matconvnet/pretrained/](http://www.vlfeat.org/matconvnet/pretrained/)
-Put the resulting
+Put the resulting .mat files in the data folder, and run the script 
+~~~
+python mat2npy.py
+~~~
+to convert to a data-structure lasagne can use.
 
 
 What do I do?
