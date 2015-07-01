@@ -3,8 +3,8 @@ What is this?
 
 This is the source code which is used to generate the stream http://www.twitch.tv/317070
 The program can recreate images from the neural networks vgg-16 and vgg-19, both found
-[here http://www.vlfeat.org/matconvnet/pretrained/](http://www.vlfeat.org/matconvnet/pretrained/)
-Moreso, it can do this interactively and in real time.
+[here](http://www.vlfeat.org/matconvnet/pretrained/)
+What's even better, it can do this interactively and in real time.
 
 What do I need?
 ===============
@@ -51,6 +51,6 @@ these are used for logging into twitch and setting up the stream.
 
 ... and now?
 ============
-This source is provided as is. It will be hard to set up (because of its dependencies) by machine learning hobbyists or artists. Sorry for that.
+This source is provided as is. It will be hard to set up (because of its dependencies) by artists or others who are not familiar with these machine learning libraries. Sorry for that.
 I think the biggest benefit will be in the reading of the code and using the ideas behind it.
 
